@@ -4,7 +4,28 @@ body{
     background-color: #111;
     color: white;
 }
-div.wlcm{
+.wlcm{
     text-align: center;
     padding: 10px 20px;
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+.navbar a:hover {
+    font-style: italic;
+    color: grey;
+    text-decoration: none;
+}
+.hero{
+    background-image: url(astra.jpg);
+    background-size: auto 654px;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
 }
