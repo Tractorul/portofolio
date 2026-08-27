@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #111;
+    color: white;
+}
+div.wlcm{
+    text-align: center;
+    padding: 10px 20px;
+}
