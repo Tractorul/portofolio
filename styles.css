@@ -57,5 +57,9 @@ html {
     height: auto;
     display: block;
     border-radius: 6px;
-    
+}
+@media (min-width: 1400px) {
+    .gallery{
+        column-count: 5;
+    }
 }
