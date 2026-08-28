@@ -17,7 +17,7 @@ hr{
     display: flex;
     gap: 25px;
     padding: 10px 20px;
-    background-color: rgb(63, 63, 63);
+    background-color: #171717;
 }
 .navbar a{
     text-decoration: none;
@@ -26,7 +26,6 @@ hr{
 .navbar a:hover{
     font-style: italic;
     color: grey;
-
 }
 
 .contact h2 {   
@@ -39,4 +38,20 @@ hr{
     font-size: 25px;
     font-weight: bolder;
 
+}
+.qs  {
+    text-align: center;
+}
+
+.contact-methods ul {
+    list-style-type: none;
+}
+.contact-methods ul a {
+    text-decoration: none;
+}
+.mail {
+    background-color: grey;
+    color: white;
+    padding: 4px 2px;
+    border-radius: 10px;
 }
