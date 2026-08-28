@@ -64,4 +64,23 @@ body{
     background-color: white;
     margin-inline-start: left;
     width: 50%;
+    width: fit-content;
+}
+
+@media (max-width: 700px) {
+    .about{
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+    .about-content hr {
+        align-items: center;
+        border: none;
+        height: 3px;
+        background-color: white;    
+        margin-inline: left;
+        width: 100%;
+        max-width: 370px ;
+
+    }
 }
