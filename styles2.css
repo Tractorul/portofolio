@@ -21,11 +21,13 @@ hr{
 }
 .navbar a{
     text-decoration: none;
-    color: white;
+    color: #a1a1a1;
+    font-weight: 500;
+    transition: color 0.2s ease;
 }
 .navbar a:hover{
     font-style: italic;
-    color: grey;
+    color: #ffff;
 }
 
 .contact h2 {   
@@ -45,13 +47,53 @@ hr{
 
 .contact-methods ul {
     list-style-type: none;
+    
 }
 .contact-methods ul a {
     text-decoration: none;
 }
 .mail {
+    display: grid;
     background-color: grey;
     color: white;
     padding: 4px 2px;
     border-radius: 10px;
+    max-width: 200px;
+    margin: 0 auto;
 }
+.insta-btn {
+    display: grid;
+    background-color: grey;
+    color: white;
+    padding: 4px 2px;
+    border-radius: 10px;
+    max-width: 250px;
+    margin: 0 auto;
+}
+.github-btn {
+    display: grid;
+    background-color: grey;
+    color: white;
+    padding: 4px 2px;
+    border-radius: 10px;
+    max-width: 770px;
+    margin: 0 auto;
+}
+#contact-a {
+    display: flex;
+    max-width: 800px;
+    margin-left: 859px;
+    align-items: center;
+
+}
+#contact-b {
+    display: flex;
+    max-width: 800px;
+    margin-left: 830px;
+}
+#contact-c {
+    display: flex;
+    max-width: 800px;
+    margin-left: 645px;
+}
+
