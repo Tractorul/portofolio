@@ -70,6 +70,7 @@ hr{
     align-items: center;
     text-align: center;
     transition: border-color 0.2s ease, transform 0.2s ease;
+    margin-right: 10px;
 }
 .contact-methods li:hover {
     border-color: #404040;
