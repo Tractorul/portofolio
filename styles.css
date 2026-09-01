@@ -112,3 +112,78 @@ gap: 14px;
 font-size: 14px;
 }
 }
+
+.photo-viewer {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: rgba(0, 0, 0, 0.92);
+
+    opacity: 0;
+    visibility: hidden;
+
+    transition: opacity 0.25s ease, visibility 0.25s ease;
+}
+
+.photo-viewer.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.viewer-image {
+    max-width: 90vw;
+    max-height: 90vh;
+
+    object-fit: contain;
+
+    border-radius: 4px;
+
+    user-select: none;
+}
+
+.viewer-close,
+.viewer-prev,
+.viewer-next {
+    position: absolute;
+
+    border: none;
+    background: none;
+
+    color: white;
+
+    font-size: 40px;
+
+    cursor: pointer;
+
+    padding: 15px;
+
+    transition: opacity 0.2s ease;
+}
+
+.viewer-close:hover,
+.viewer-prev:hover,
+.viewer-next:hover {
+    opacity: 0.6;
+}
+
+.viewer-close {
+    top: 20px;
+    right: 25px;
+}
+
+.viewer-prev {
+    left: 25px;
+}
+
+.viewer-next {
+    right: 25px;
+}
+
+body.viewer-open {
+    overflow: hidden;
+}
